@@ -12,7 +12,7 @@ import Contact from '../components/Contact'
 const Home: NextPage = () => {
   return (
     <div className="text-[#d8d4d4] h-screen snap-y 
-    snap-mandatory overflow-scroll z-0" >
+    snap-mandatory overflow-y-scroll overflow-x-hidden z-0" >
       <Head>
         <title>Taka's Portfolio</title>
       </Head>
