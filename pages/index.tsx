@@ -12,7 +12,8 @@ import Contact from '../components/Contact'
 const Home: NextPage = () => {
   return (
     <div className="text-[#d8d4d4] h-screen snap-y 
-    snap-mandatory overflow-y-scroll overflow-x-hidden z-0" >
+    snap-mandatory overflow-y-scroll overflow-x-hidden z-0
+    scrollbar scrollbar-track-[#c33a3a]/40 scrollbar-thumb-[#c33a3a]/80" >
       <Head>
         <title>Taka's Portfolio</title>
       </Head>
