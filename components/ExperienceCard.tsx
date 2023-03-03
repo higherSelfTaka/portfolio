@@ -29,19 +29,19 @@ function ExperienceCard({} : Props) {
       <article key={i} className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
       w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#f7f2f2] p-10 hover:opacity-100 opacity-50 
       cursor-pointer transition-opacity duration-200 overflow-hidden">
-        <Image
-        // initial={{
-        //   y:-100,
-        //   opacity:0,
-        // }}
-        // transition={{duration:1.2}}
-        // whileInView={{opacity:1, y:0}}
-        // viewport={{once:true}}
+        {/* <Image
+         initial={{
+          y:-100,
+           opacity:0,
+         }}
+         transition={{duration:1.2}}
+       whileInView={{opacity:1, y:0}}
+         viewport={{once:true}}
   
         className="w-32 h-32 rounded-[8px]  xl:w-[150px] xl:h-[150px] object-contain object-center"
         src={item.src}
         alt=""
-       />
+       /> */}
   
       <div className="px-0 md:px-10 text-[#6c6c6c] hover:text-[#e6b3b3]">
           <h4 className="text-3xl font-light ">
