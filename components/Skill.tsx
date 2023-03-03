@@ -9,13 +9,13 @@ type Props = {
 
 type Technology = {
   name:string,
-  src: StaticImageData,
+  src: string,
   proficiency:string,
 }
 
 function Skill({directionLeft}: Props) {
  
- const technology: Technology[]=tech
+
  
   return (
 
