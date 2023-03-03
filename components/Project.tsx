@@ -1,12 +1,24 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import Image from 'next/image'
+import {project} from '../constants'
 
 type Props = {}
 
+type Project ={
+    name:string,
+    completion:string,
+    front:string,
+    back:string,
+    deal:string,
+    short:string,
+    description:string
+}
+
 function Project({}: Props) {
 
-    const  projects = [1, 2, 3, 4, 5];
+    //const  projects = [1, 2, 3, 4, 5];
+    const projects : Project[] = project
   return (
     <motion.div 
     initial={{opacity:0}}
@@ -42,14 +54,19 @@ function Project({}: Props) {
                     <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                         <h4 className="text-2xl font-semibold text-center">
                             <span className="underline decoration-[#F7AB0A]/50">Case Study {i+1} : </span>
-                         {" "} Projects
+                         {" "} {proj.name}
                         </h4>
-                        <p className="text-md text-center md:text-left">
-                            I am currently working on SNS solution for the philanthropic project which saves the victims of various
-                            abuses in Japan including sexual harassments, rapes, economic abuses and domestic violences. The project primary 
-                            objective is to provide psychological care for people with any psychosis triggered by abuses such as PTSD, CPTSD, depression
-                            and schizopherenia 
+                        <h4 className="text-xl font-semibold text-center">
+                            <span className="underline decoration-[#F7AB0A]/50"> Fontend : {proj.front} </span> |
+                            <span className="underline decoration-[#F7AB0A]/50"> Backend : {proj.back} </span>
+                        </h4>
+                        <div className="text-md text-center md:text-left">
+                            {proj.short}
+                            <p className="text-[14px] text-center md:text-left">
+                            {proj.description}
                         </p>
+                        </div>
+                       
                     </div>
                 </div>
             ))}

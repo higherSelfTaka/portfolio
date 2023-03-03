@@ -21,9 +21,9 @@ import {
     start: '1997',
     end:'2000',
     dot1: 'developed P&L model for client jurisdictions to forecast income tax collection',
-    dot2: 'monthly financial summary report to CFO',
+    dot2: 'Local Government Revenue Forecast Model Development : assigned financial model development directly under CFO. In response to RFP from each jurisdictions in Pennsylvania, those P&L proforma financials are included in the propositions. Times series regression analysis is employed to forecast earned income tax revenue for each potential and existing clients.',
     dot3: 'ad-hoc financial analysis & forecast works',
-    dot4: 'W2 income come refund database development and refund disbursement management',
+    dot4: 'W2 database management and check printing system implementation : City of Philadelphia and other surrounding jurisdictions confronted with the issue for the delay of income tax refunds due to the cross region reciprocation rule for income tax collection. this caused the delay of income tax refund payments for tax filers. As a solution, we calculate the correct refund amount from W2 database and cut checks for unpaid.',
     intro: 'MBIA muni-service (the formerly called Municipal Tax Bereau) is the wholey owned subsidiary company of MBIA, a largest bond insurance company in the US. It provides tax non-filer discovery services for each client jusrisdictions which owns MBIA bond insurance policies'
   },
   {
@@ -64,8 +64,7 @@ import {
     dot2: 'consulting for call center establishment and execusion for credit card concierge desk',
     dot3: 'web application development service',
     dot4: 'event and philanthropic management and consulting for NPOs',
-    intro: 'Nirvana Consultant was founded by me. It is a small consulting boutigue firm which offers various IT and marketing solution for small to mid sized businesses in and around Tokyo'
- 
+    intro: 'After leaving Colt, I launched a new consulting business which had specialized a consulting service for the revenue enhancement, the cash flow improvement for ‘ryokan’, meaning traditional Japanese Inn and luxurious hotels. However, due to the economic impact of Lehman shock, Nirvana downsized the organization and modified its business strategies in order for it to function as a holistic consulting solution providers including promotions, live events planning and execusion, application developments for small-to-mid size businesses in and around Tokyo.'
   },
   {
     name: 'WOWOW Communication KK',
@@ -149,7 +148,55 @@ export const project = [
   {
     name: 'Burgundy Butterfly Social Network Establishment',
     completion:'20%',
+    front:'Nextjs/React',
+    back:'firebase',
+    deal:'client',
     short:'Development of SNS web application which saves victimes of abuses',
-    description:''
+    description:'Through my experience as a victim of the economic abuse, I decided to launch react base web application which support other victims of various forms of abuses and corporate harassments. This project aims to connect each victims on SNS and provide psychological care for psychosis induced by abuses including sexual harassments, rapes, gaslighting and economic abuses'
+  },
+  {
+    name: 'Live Streaming Shopping Smart Phone Application',
+    completion:'100%',
+    front:'React Native',
+    back:'firebase Agora Web RTC',
+    deal:'client',
+    short:'Development of smart phone concierge application using Web RTC technology',
+    description:'Develop a live streaming shopping support application using Web RTC technology with react native. A host  would be able to recommend items to audience as well as to chat with audience'
+  },
+  {
+    name: 'Philanthropic Music Streaming App Development',
+    completion:'100%',
+    front:'React Native',
+    back:'firebase Agora Web RTC',
+    deal:'own',
+    short:'Development of smart phone concierge application using Web RTC technology',
+    description:'Music streaming app which allocates revenue with philanthropic projects which benefits PR for musicians and revenue enhancements for non profit organizations'
+  },
+  {
+    name: 'Remote Work Facilitation Application',
+    completion:'100%',
+    front:'React Native',
+    back:'AWS',
+    deal:'own',
+    short:'Remote work location reservation smart phone application',
+    description:'The government recommends people to work outside of Tokyo in order to help the travel industry. We build an app to allow office workers in Tokyo tralve and work from remote area in Japan. The app would allow users to reserve location which allows works to stay'
+  },
+  {
+    name: 'Restaurant Recipe Sharing App',
+    completion:'100%',
+    front:'React Native',
+    back:'AWS',
+    deal:'own',
+    short:'Restaurant Recipe Sharing SNS using YOUTUBE API',
+    description:'The project to develop a react native smart phone app which allows users to check restaurant recipes to help them during the lockdown'
+  },
+  {
+    name: 'React Web Shopping Site',
+    completion:'100%',
+    front:'React Native',
+    back:'AWS',
+    deal:'own',
+    short:'Shopping Site using Redux State management',
+    description:'The mock application project : React shopping application development using Redux and modern react hooks The payment integration is achived with Stripe API'
   },
 ]
