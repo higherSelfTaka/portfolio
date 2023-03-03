@@ -50,7 +50,7 @@ function ExperienceCard({} : Props) {
           <p className="font-bold text-xl mt-1">{item.name}</p>
           <div className="flex space-x-2 my-2">
               {/* tech used */}
-              <Image
+              {/* <Image
               alt=""
               className="h-8 w-8 rounded-full"
               src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg"
@@ -64,7 +64,7 @@ function ExperienceCard({} : Props) {
                alt=""
               className="h-8 w-8 rounded-full"
               src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
-              />
+              /> */}
           </div>
           <p className="uppercase py-5 text-gray-300">Started :{item.start} - Ended : {item.end}</p>
           <ul className="list-disc space-y-4 ml-5 text-lg">
