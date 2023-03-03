@@ -1,6 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import {tech} from '../constants'
+import Image from 'next/image'
 
 type Props = {
     directionLeft?:boolean;
@@ -22,14 +23,15 @@ function Skill({directionLeft}: Props) {
    
 <>
 {technology.map((item, i)=>(
-  <div className="group relative flex cursor-pointer">
-        <motion.img
-        initial={{
-            x:directionLeft ? -200 :200,
-            opacity:0,
-        }}
-        transition={{duration:1}}
-        whileInView={{opacity:1, x:0}}
+  <div className="group relative flex cursor-pointer" key={i}>
+        <Image
+        // initial={{
+        //     x:directionLeft ? -200 :200,
+        //     opacity:0,
+        // }}
+        // transition={{duration:1}}
+        // whileInView={{opacity:1, x:0}}
+        alt=""
         src={item.src}
         className="rounded-full border border-gray-300 object-contain w-20 h-20 xl:w-32 xl:h-32 md:w-28 md:h-28
         filter group-hover:grayscale transition duration-300 ease-in-out"
