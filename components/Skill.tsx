@@ -11,7 +11,6 @@ type Props = {
 function Skill({directionLeft}: Props) {
  
 
- 
   return (
 
 
