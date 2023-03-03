@@ -1,17 +1,12 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import {tech} from '../constants'
-import Image, { StaticImageData } from 'next/image'
+
 
 type Props = {
     directionLeft?:boolean;
 }
 
-type Technology = {
-  name:string,
-  src: string,
-  proficiency:string,
-}
 
 function Skill({directionLeft}: Props) {
  
@@ -22,7 +17,7 @@ function Skill({directionLeft}: Props) {
 
    
 <>
-{technology.map((item, i)=>(
+{/* {technology.map((item, i)=>(
   <div className="group relative flex cursor-pointer" key={i}>
         <Image
         // initial={{
@@ -47,7 +42,7 @@ function Skill({directionLeft}: Props) {
             
         </div>
     </div>
-))}
+))} */}
 </>
     
     
