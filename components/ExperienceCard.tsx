@@ -29,8 +29,8 @@ function ExperienceCard({} : Props) {
 
     <>
     {com.map((item,i)=>(
-      <article key={i} className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
-      w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#f7f2f2] p-10 hover:opacity-100 opacity-50 
+      <article key={i} className="flex flex-col rounded-sm items-center space-y-7 flex-shrink-0 border  shadow hover:border-[#ebd9d9]
+      w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#ffffff] p-10 hover:opacity-100 opacity-50 
       cursor-pointer transition-opacity duration-200 overflow-hidden">
         {/* <Image
          initial={{
@@ -55,20 +55,20 @@ function ExperienceCard({} : Props) {
               {/* tech used */}
                <Image
               alt=""
-              width={20} height={20}
-              className="h-8 w-8 rounded-full"
+              width={15} height={15}
+              className="h-7 w-7 rounded-full"
               src={javascript}
               />
                <Image 
                alt=""
-               width={20} height={20}
-              className="h-8 w-8 rounded-full"
+               width={15} height={15}
+               className="h-7 w-7 rounded-full"
               src={typescript}
               />
                <Image 
                alt=""
-               width={20} height={20}
-              className="h-8 w-8 rounded-full"
+               width={15} height={15}
+               className="h-7 w-7 rounded-full"
               src={reactjs}
               /> 
           </div>
