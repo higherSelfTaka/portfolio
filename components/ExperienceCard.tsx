@@ -6,6 +6,7 @@ import Image from 'next/image'
 type Company = {
   name:string,
   src: string,
+  location:string,
   role:string,
   start:string,
   end:string,
@@ -13,6 +14,7 @@ type Company = {
   dot2:string,
   dot3:string,
   dot4:string,
+  intro:string
 }
 type Props = {
 
@@ -43,7 +45,7 @@ function ExperienceCard({} : Props) {
         alt=""
        /> */}
   
-      <div className="px-0 md:px-10 text-[#6c6c6c] hover:text-[#e6b3b3]">
+      <div className="px-0 md:px-10 text-[#6c6c6c] hover:text-[#e6b3b3] ">
           <h4 className="text-3xl font-light ">
              {item.role}
           </h4>
@@ -66,8 +68,11 @@ function ExperienceCard({} : Props) {
               src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
               /> */}
           </div>
-          <p className="uppercase py-5 text-gray-300">Started :{item.start} - Ended : {item.end}</p>
-          <ul className="list-disc space-y-4 ml-5 text-lg">
+          <p className="uppercase py-2 text-gray-400 ">(Location: {item.location}) Started :{item.start} - Ended : {item.end} </p>
+          
+          <p className="py-2 text-text-gray-400">{item.intro}</p>
+
+          <ul className="list-disc space-y-2 ml-5 text-sm">
               <li>{item.dot1}</li>
               <li>{item.dot2}</li>
               <li>{item.dot3}</li>

@@ -32,6 +32,8 @@ function Skill({directionLeft}: Props) {
         // transition={{duration:1}}
         // whileInView={{opacity:1, x:0}}
         alt=""
+        width={200}
+        height={200}
         src={item.src}
         className="rounded-full border border-gray-300 object-contain w-20 h-20 xl:w-32 xl:h-32 md:w-28 md:h-28
         filter group-hover:grayscale transition duration-300 ease-in-out"
