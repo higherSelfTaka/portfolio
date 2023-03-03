@@ -1,10 +1,20 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import ExperienceCard from './ExperienceCard'
+import {companies} from '../constants'
 
-type Props = {}
+
+type Props = {
+
+}
+
+
 
 function Experience({}: Props) {
+
+
+ 
+   
   return (
     <motion.div 
     initial={{opacity:0}}
@@ -20,11 +30,11 @@ function Experience({}: Props) {
        <div className="w-full flex space-x-5 overflow-x-scroll p-7 snap-x snap-mandatory
         scrollbar scrollbar-track-[#ffffff]/40 scrollbar-thumb-[#c33a3a]/80
        ">
-        <ExperienceCard/>
-        <ExperienceCard/>
-        <ExperienceCard/>
-        <ExperienceCard/>
-        <ExperienceCard/>
+     
+      <ExperienceCard />
+    
+       
+       
        </div>
 
     </motion.div>
