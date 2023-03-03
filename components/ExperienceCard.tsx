@@ -2,6 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import {companies} from '../constants'
 import Image from 'next/image'
+import { javascript, typescript, reactjs } from '../assets'
 
 type Company = {
   name:string,
@@ -52,21 +53,24 @@ function ExperienceCard({} : Props) {
           <p className="font-bold text-xl mt-1">{item.name}</p>
           <div className="flex space-x-2 my-2">
               {/* tech used */}
-              {/* <Image
+               <Image
               alt=""
+              width={20} height={20}
               className="h-8 w-8 rounded-full"
-              src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg"
+              src={javascript}
               />
                <Image 
                alt=""
+               width={20} height={20}
               className="h-8 w-8 rounded-full"
-              src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png"
+              src={typescript}
               />
                <Image 
                alt=""
+               width={20} height={20}
               className="h-8 w-8 rounded-full"
-              src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
-              /> */}
+              src={reactjs}
+              /> 
           </div>
           <p className="uppercase py-2 text-gray-400 ">(Location: {item.location}) Started :{item.start} - Ended : {item.end} </p>
           

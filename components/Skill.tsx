@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import {tech} from '../constants'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
 type Props = {
     directionLeft?:boolean;
@@ -9,7 +9,7 @@ type Props = {
 
 type Technology = {
   name:string,
-  src: string,
+  src: StaticImageData,
   proficiency:string,
 }
 

@@ -9,6 +9,7 @@ import {
   UsersIcon,
  } from "@heroicons/react/24/outline"
  import {HomeIcon} from '@heroicons/react/24/solid'
+import { typescript, git, html,javascript,nodejs, reactjs, redux,tailwind,css} from "../assets"
 
 
 
@@ -99,47 +100,47 @@ import {
   {
     name: 'Angular',
     proficiency:'70%',
-    src: "https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg",
+    src: git,
   },
   {
     name: 'React',
     proficiency:'97.5%',
-    src: "https://dwglogo.com/wp-content/uploads/2017/09/1460px-React_logo.png",
+    src: html,
   },
   {
     name: 'JavaScript',
     proficiency:'85%',
-    src: "https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png",
+    src: javascript,
   },
   {
     name: 'TypeScript',
     proficiency:'85%',
-    src: "https://techblog.istyle.co.jp/wp-content/uploads/2021/12/typescript.png",
+    src: nodejs,
   },
   {
     name: 'Firebase',
     proficiency:'100%',
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBeXyCoLxDYymF8TXezg5Y3m-kitAoOMDDvYH5VOPRVVDh2vM9phx81V4w1cCPE97PzqY&usqp=CAU",
+    src: reactjs,
   },
   {
     name: 'MongoDB',
     proficiency:'70%',
-    src: "https://servicenav.coservit.com/wp-content/uploads/2022/05/18-1.jpg",
+    src: tailwind,
   },
   {
     name: 'WEB3',
     proficiency:'40%',
-    src: "https://thirdweb.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwhite-logo.a8cda9b2.png&w=1080&q=75",
+    src: typescript,
   },
   {
     name: 'Solidity',
     proficiency:'40%',
-    src: "https://seeklogo.com/images/S/solidity-logo-D29CC3EB00-seeklogo.com.png",
+    src: "css",
   },
   {
     name: 'Docker',
     proficiency:'40%',
-    src: "https://d1.awsstatic.com/acs/characters/Logos/Docker-Logo_Horizontel_279x131.b8a5c41e56b77706656d61080f6a0217a3ba356d.png",
+    src: "docker",
   },
 ]
 
@@ -147,6 +148,7 @@ import {
 export const project = [
   {
     name: 'Burgundy Butterfly Social Network Establishment',
+    src: reactjs,
     completion:'20%',
     front:'Nextjs/React',
     back:'firebase',
@@ -156,6 +158,7 @@ export const project = [
   },
   {
     name: 'Live Streaming Shopping Smart Phone Application',
+    src: reactjs,
     completion:'100%',
     front:'React Native',
     back:'firebase Agora Web RTC',
@@ -165,6 +168,7 @@ export const project = [
   },
   {
     name: 'Philanthropic Music Streaming App Development',
+    src: reactjs,
     completion:'100%',
     front:'React Native',
     back:'firebase Agora Web RTC',
@@ -174,6 +178,7 @@ export const project = [
   },
   {
     name: 'Remote Work Facilitation Application',
+    src: reactjs,
     completion:'100%',
     front:'React Native',
     back:'AWS',
@@ -183,6 +188,7 @@ export const project = [
   },
   {
     name: 'Restaurant Recipe Sharing App',
+    src: reactjs,
     completion:'100%',
     front:'React Native',
     back:'AWS',
@@ -192,6 +198,7 @@ export const project = [
   },
   {
     name: 'React Web Shopping Site',
+    src: reactjs,
     completion:'100%',
     front:'React Native',
     back:'AWS',
