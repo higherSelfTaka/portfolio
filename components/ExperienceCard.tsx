@@ -1,6 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import {companies} from '../constants'
+import Image from 'next/image'
 
 type Company = {
   name:string,
@@ -28,14 +29,14 @@ function ExperienceCard({} : Props) {
       <article key={i} className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
       w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#f7f2f2] p-10 hover:opacity-100 opacity-50 
       cursor-pointer transition-opacity duration-200 overflow-hidden">
-        <motion.img 
-        initial={{
-          y:-100,
-          opacity:0,
-        }}
-        transition={{duration:1.2}}
-        whileInView={{opacity:1, y:0}}
-        viewport={{once:true}}
+        <Image
+        // initial={{
+        //   y:-100,
+        //   opacity:0,
+        // }}
+        // transition={{duration:1.2}}
+        // whileInView={{opacity:1, y:0}}
+        // viewport={{once:true}}
   
         className="w-32 h-32 rounded-[8px]  xl:w-[150px] xl:h-[150px] object-contain object-center"
         src={item.src}
@@ -49,15 +50,18 @@ function ExperienceCard({} : Props) {
           <p className="font-bold text-xl mt-1">{item.name}</p>
           <div className="flex space-x-2 my-2">
               {/* tech used */}
-              <img 
+              <Image
+              alt=""
               className="h-8 w-8 rounded-full"
               src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
               />
-               <img 
+               <Image 
+               alt=""
               className="h-8 w-8 rounded-full"
               src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
               />
-               <img 
+               <Image 
+               alt=""
               className="h-8 w-8 rounded-full"
               src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
               />
