@@ -53,12 +53,12 @@ function ExperienceCard({} : Props) {
               <Image
               alt=""
               className="h-8 w-8 rounded-full"
-              src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
+              src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg"
               />
                <Image 
                alt=""
               className="h-8 w-8 rounded-full"
-              src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
+              src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png"
               />
                <Image 
                alt=""
