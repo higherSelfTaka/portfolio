@@ -8,8 +8,8 @@
         text-xs tracking-widest text-gray-500 transition-all hover:border-[#ad1414]/40 hover:text-[#ad1414]/40
     }
     .contactInput {
-        @apply outline-none bg-[#f0d3d3] rounded-md border px-5 py-3 border-[#c33a3a]/40
-        text-white placeholder-gray-100 transition-all 
+        @apply outline-none bg-[#ffffff] rounded-md border px-5 py-3 border-[#c33a3a]/40
+        text-[#e34747] placeholder-gray-400 transition-all 
         focus:border-[#F7ab0a]/40 focus:text-[#ffffff]
     }
 }

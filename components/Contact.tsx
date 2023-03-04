@@ -67,7 +67,7 @@ const onSubmit: SubmitHandler<Inputs> = (formData)=> {
             </div>
                <input {...register("subject")} placeholder="Subject" className="contactInput" type="text"/>
                <textarea {...register("message")} placeholder="Messages"  className="contactInput"/>
-           <button type="submit" className="bg-[#f7ab0a] py-2 px-5 rounded-md text-white font-bold">Submit</button>
+           <button type="submit" className="bg-[#ca2f2f] py-2 px-5 rounded-md text-white font-bold">Submit</button>
           </form>
 
 

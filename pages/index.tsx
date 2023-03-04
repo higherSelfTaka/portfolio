@@ -8,6 +8,9 @@ import Experience from '../components/Experience'
 import Skills from '../components/Skills'
 import Project from '../components/Project'
 import Contact from '../components/Contact'
+import Link from 'next/link'
+import { up1, up2 } from '../assets'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
@@ -51,6 +54,19 @@ const Home: NextPage = () => {
       <section id="contact" className="snap-start">
       <Contact/>
      </section>
+
+     <Link href="#hero">
+     <footer className="sticky bottom-5 w-full cursor-pointer">
+      <div className="flex items-center justify-center">
+        <Image 
+        alt=""
+        className="h-10 w-10 rounded-full filter grascale hover:grayscale-0 cursor-pointer"
+        width={15} height={15}
+        src={up1}/>
+      </div>
+     </footer>
+     
+     </Link>
 
     
     </div>
