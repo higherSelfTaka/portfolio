@@ -1,6 +1,8 @@
 import React from 'react'
 import {SocialIcon} from 'react-social-icons'
 import {motion} from 'framer-motion'
+import Image from 'next/image'
+import {logon} from '../assets'
 
 type Props = {}
 
@@ -22,6 +24,14 @@ function Header({}: Props) {
         duration:1.5,
       }}
       className="flex flex-row items-center">
+
+              <Image
+                     className="rounded-full mr-12"
+                    src={logon}
+                    width={50}
+                    height={50}
+                    alt=""/>  
+
         {/* Social icoms */}
         <SocialIcon 
         url="https://youtube.com/@economic_abuses_Japan"
