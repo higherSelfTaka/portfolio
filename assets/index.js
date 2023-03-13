@@ -32,6 +32,8 @@ import tripguide from "./tripguide.png";
 import me from "./me.png";
 import up1 from "./up1.png";
 import up2 from "./up2.png";
+import logonew from "./logonew.png"
+import logon from "./logon.png"
 
 export {
   logo,
@@ -64,5 +66,7 @@ export {
   tripguide,
   me,
   up2,
-  up1
+  up1,
+  logonew,
+  logon,
 };

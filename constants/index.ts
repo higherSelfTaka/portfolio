@@ -9,7 +9,7 @@ import {
   UsersIcon,
  } from "@heroicons/react/24/outline"
  import {HomeIcon} from '@heroicons/react/24/solid'
-import { typescript, git, html,javascript,nodejs, reactjs, redux,tailwind,css} from "../assets"
+import { typescript, git, html,javascript,nodejs, reactjs, logonew, logon, redux,tailwind,css} from "../assets"
 
 
 
@@ -148,7 +148,7 @@ import { typescript, git, html,javascript,nodejs, reactjs, redux,tailwind,css} f
 export const project = [
   {
     name: 'Burgundy Butterfly Social Network Establishment',
-    src: reactjs,
+    src: logon,
     completion:'20%',
     front:'Nextjs/React',
     back:'firebase',
@@ -158,7 +158,7 @@ export const project = [
   },
   {
     name: 'Live Streaming Shopping Smart Phone Application',
-    src: reactjs,
+    src: logon,
     completion:'100%',
     front:'React Native',
     back:'firebase Agora Web RTC',
@@ -168,7 +168,7 @@ export const project = [
   },
   {
     name: 'Philanthropic Music Streaming App Development',
-    src: reactjs,
+    src: logon,
     completion:'100%',
     front:'React Native',
     back:'firebase Agora Web RTC',
@@ -178,7 +178,7 @@ export const project = [
   },
   {
     name: 'Remote Work Facilitation Application',
-    src: reactjs,
+    src: logon,
     completion:'100%',
     front:'React Native',
     back:'AWS',
@@ -188,7 +188,7 @@ export const project = [
   },
   {
     name: 'Restaurant Recipe Sharing App',
-    src: reactjs,
+    src: logon,
     completion:'100%',
     front:'React Native',
     back:'AWS',
@@ -198,7 +198,7 @@ export const project = [
   },
   {
     name: 'React Web Shopping Site',
-    src: reactjs,
+    src: logon,
     completion:'100%',
     front:'React Native',
     back:'AWS',

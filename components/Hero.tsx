@@ -1,7 +1,7 @@
 import React from 'react'
 import {Cursor, useTypewriter} from 'react-simple-typewriter'
 import BackgroundCircles from '../components/ BackgroundCircle'
-import {me} from '../assets'
+import {me, logonew} from '../assets'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -20,7 +20,7 @@ function Hero({}: Props) {
     }) 
   return (
     <div className="text-[#a9a7a7] h-screen 
-    flex flex-col space-y-8 
+    flex flex-col space-y-9
     items-center
     justify-center 
     text-center overflow-hidden">
@@ -28,9 +28,9 @@ function Hero({}: Props) {
       <Image 
       src={me}
       alt="Picture of me"
-      width={200}
-      height={200}
-      className="relative rounded-full h-32 w-32 mx-auto object-cover"
+      width={150}
+      height={150}
+      className="relative rounded-full h-32 w-32 mx-auto object-cover shadow"
       />
     <div className="z-20">
      <h2 className="text-sm uppercase text-[#d8d4d4] tracking-[15px]"> Social Designer </h2> 

@@ -26,7 +26,7 @@ function Project({}: Props) {
     whileInView={{opacity:1}}
     transition={{duration:1.5}}
     
-    className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto
+    className=" h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto
     items-center z-0">
         <h3 className="absolute top-24 uppercase tracking-[20px] text-[#c33a3a] text-xl">
             Tech-Project
@@ -42,10 +42,10 @@ function Project({}: Props) {
                 className="w-screen flex-shrink-0 snap-center flex flex-col space-y-3
                 items-center justify-center p-20 md:p-44 h-screen " key={i} >
                      <Image
-                     
+                     className="rounded-full"
                     src={proj.src}
-                    width={40}
-                    height={40}
+                    width={50}
+                    height={50}
                     alt=""/>  
 
                     <motion.div 
@@ -61,7 +61,7 @@ function Project({}: Props) {
                         <h4 className="text-[16px] font-semibold text-center ">
                             <span className="underline decoration-[#F7AB0A]/50">Case Study {i+1} out of 60 </span>
                         </h4>
-                        <h4 className="text-2xl font-semibold text-center text-[#121212]">  
+                        <h4 className="text-2xl font-semibold text-center text-[#8b0d0d]">  
                         {proj.name}
                         </h4>
                         <h4 className="text-xl font-semibold text-center">
@@ -81,7 +81,7 @@ function Project({}: Props) {
         </div>
 
         {/* <div className="w-full absolute top-[30%] bg-[#c33a3a]/10 left-0 h-[500px] -skew-y-12"/> */}
-        <div className="w-full absolute top-[30%] border border-[#d0cbcb] left-0 h-[500px] -skew-y-12"/>
+        <div className="w-full absolute top-[30%] border border-[#ffd3d3] left-0 h-[500px] -skew-y-12"/>
     </motion.div>
   )
 }
